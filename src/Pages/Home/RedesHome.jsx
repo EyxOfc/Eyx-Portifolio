@@ -11,7 +11,7 @@ import WhatsAppIcon from './../../icons/WhatsApp.png'
 function RedesHome() {
     return ( 
         <>
-        <section id='RedeHome' className='flex flex-row flex-wrap items-center justify-center gap-[10px] w-full h-auto p-[20px]'>
+        <section id='RedeHome' className='flex flex-row flex-wrap items-center justify-center sm:gap-[15px] gap-[10px] w-full h-auto p-[20px]'>
 
             <ButtonRedesHome SrcIcon={ThreadsIcon} Text='Threads' To='https://www.threads.net/@a.arj.ofc' />
             <ButtonRedesHome SrcIcon={IntagramIcon} Text='Instagram' To='https://www.instagram.com/a.arj.ofc' />
