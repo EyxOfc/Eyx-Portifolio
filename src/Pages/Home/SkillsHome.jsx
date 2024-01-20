@@ -12,9 +12,9 @@ function SkillsHome() {
 
                 <CardSkillHome Text='Oferecemos desenvolvimento web para sites institucionais, blogs, Transforme suas ideias em realidade digital sem complicações.' Title='Desenvolvimento Web'/>
 
-                <CardSkillHome Text='Oferecemos desenvolvimento web para sites institucionais, blogs, Transforme suas ideias em realidade digital sem complicações.' Title='Desenvolvimento Web'/>
+                <CardSkillHome Text='Criamos interfaces intuitivas e atraentes, tornamos seu site fácil e agradável, Invista em um design simples e impactante.' Title='Layout UX & UI'/>
 
-                <CardSkillHome Text='Oferecemos desenvolvimento web para sites institucionais, blogs, Transforme suas ideias em realidade digital sem complicações.' Title='Desenvolvimento Web'/>
+                <CardSkillHome Text='Cada elemento é cuidadosamente concebido, Abraçamos a simplicidade e a beleza do design, Seja um logotipo, layout, Nosso design destaca a sinceridade e a força da sua marca.' Title='Design Adaptativo'/>
 
             </div>
 

@@ -9,10 +9,10 @@ function Header() {
 
             <nav className='flex flex-row flex-nowrap items-center justify-center gap-[5px] w-auto h-auto'>
 
-                <ButtonHeader Text='About' To='#AboutHome' />
+                <ButtonHeader Text='Sobre' To='#AboutHome' />
                 <ButtonHeader Text='Skills' To='#SkillsHome' />
-                <ButtonHeader Text='Projects' To='#ProjectsHome' />
-                <ButtonHeader Text='Contacts' To='#ContactsHome' />
+                <ButtonHeader Text='Projetos' To='#ProjectsHome' />
+                <ButtonHeader Text='Redes' To='#RedeHome' />
 
             </nav>
 
