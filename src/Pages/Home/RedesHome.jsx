@@ -7,6 +7,7 @@ import GitHubIcon from './../../icons/Git Hub.png'
 import LinkedInIcon from './../../icons/LinkedIn.png'
 import EmailIcon from './../../icons/Email.png'
 import WhatsAppIcon from './../../icons/WhatsApp.png'
+import SpotifyIcon from './../../icons/Spotify.png'
 
 function RedesHome() {
     return ( 
@@ -19,6 +20,7 @@ function RedesHome() {
             <ButtonRedesHome SrcIcon={LinkedInIcon} Text='LinkedIn' To='https://www.linkedin.com/in/andrey-araujo-8724992a7/' />
             <ButtonRedesHome SrcIcon={EmailIcon} Text='Email' To='mailto:andrey.araujo.ofc@gmail.com' />
             <ButtonRedesHome SrcIcon={WhatsAppIcon} Text='WhatsApp' To='https://wa.me/5511954879771' />
+            <ButtonRedesHome SrcIcon={SpotifyIcon} Text='Spotify' To='https://open.spotify.com/playlist/22i5L7TYKG39fBQNQ9JryO?si=001aa8d3d24d440d' />
 
         </section>
         </>
