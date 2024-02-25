@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 
 import TituloAbout from './CompsAbout/TituloHome';
 import ParagrafoAbout from './CompsAbout/ParagrafoAbout';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import ListaFooter from './CompsFooter/ListaFooter';
 import ItemFooter from './CompsFooter/ItemFooter';
 import ItemTitleFooter from './CompsFooter/ItemTitleFooter';
@@ -7,7 +7,7 @@ import ItemTitleFooter from './CompsFooter/ItemTitleFooter';
 function FooterHome() {
     return ( 
         <>
-        <footer className='flex flex-row flex-wrap items-start justify-start sm:gap-[20px] gap-[15px] w-full h-auto p-[20px]'>
+        <footer className='flex flex-row flex-wrap items-start justify-start gap-[15px] sm:gap-[40px] w-full h-auto p-[20px] sm:p-[40px]'>
 
             <ListaFooter Children={
                 <>

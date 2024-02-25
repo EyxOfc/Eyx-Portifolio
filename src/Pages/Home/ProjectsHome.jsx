@@ -6,11 +6,11 @@ function ProjectsHome() {
         <>
         <section id='ProjectsHome' className='flex flex-row flex-wrap items-center justify-center sm:gap-[40px] gap-[20px] w-full p-[20px] '>
 
-            <Projeto />
+            <Projeto Title='Nome do Projeto' Text='Descrição do Projeto' To=''/>
 
-            <Projeto />
+            <Projeto Title='Nome do Projeto' Text='Descrição do Projeto' To=''/>
 
-            <Projeto />
+            <Projeto Title='Nome do Projeto' Text='Descrição do Projeto' To=''/>
 
         </section>
         </>

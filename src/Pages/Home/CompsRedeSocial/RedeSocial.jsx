@@ -1,13 +1,15 @@
 import React from 'react';
+import IconRedeSocial from './IconRedeSocial';
+import NomeRedeSocial from './NomeRedeSocial';
 
 function RedeSocial({SrcIcon, Text, To}) {
     return ( 
         <>
-        <a href={To} rel='noopener' target='_blank' className='flex flex-row flex-nowrap items-center justify-center gap-[5px] h-[35px] w-[130px] bg-white border-l-[3px] border-slate rounded-[3px]' >
+        <a href={To} rel='noopener' target='_blank' className='flex flex-row flex-nowrap items-center justify-center gap-[5px] sm:gap-[10px] h-[35px] sm:h-[70px] w-[130px] sm:w-[260px] bg-white border-l-[3px] sm:border-l-[6px] border-slate rounded-[3px] sm:rounded-[6px]' >
 
-            <img src={SrcIcon} alt={Text} className='w-[20px]'/>
+            <IconRedeSocial SrcIcon={SrcIcon} Text={Text}/>
 
-            <span className='font-Sora font-[900] text-[.75rem] text-slate'>{Text}</span>
+            <NomeRedeSocial Text={Text}/>
 
         </a>
         </>

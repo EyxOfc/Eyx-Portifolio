@@ -11,7 +11,7 @@ function Mode() {
 
                 <IoMdSunny className='sm:scale-[1.75] text-sky dark:hidden'/>
 
-                <WiMoonAltWaningGibbous3 className='text-sky hidden dark:block'/>
+                <WiMoonAltWaningGibbous3 className='sm:scale-[1.75] text-sky hidden dark:block'/>
 
             </button>
         </>
