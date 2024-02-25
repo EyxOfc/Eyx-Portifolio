@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function ButtonHeader({Text, To}) {
     return ( 
         <>
-            <a href={To} type="submit" className='transition .3s flex flex-row felx-nowrap items-center justify-center prsn:px-[15px] px-[10px] h-[25px] sm:h-[32px] dark:bg-sd bg-pl border-l-[2px] dark:border-pl border-sd hover:border-tl font-Sora font-[700] dark:text-pl text-sd sm:text-[.7rem] text-[.6rem] rounded-[2px] shadow-md hover:shadow-lg'>{Text}</a>
+            <a href={To} type="submit" className='px-[12px] sm:px-[24px] py-[3px] sm:py-[6px] font-Sora font-[900] text-[.75rem] sm:text-[1.25rem] bg-white rounded-[2px] border-l-[3px] sm:border-l-[4px] border-slate'>{Text}</a>
         </>
     );
 }

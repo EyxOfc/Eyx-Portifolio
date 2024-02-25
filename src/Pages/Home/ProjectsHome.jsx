@@ -1,14 +1,16 @@
 import React from 'react';
-import CardProjectHome from '../../Comps/CardProjectHome';
+import Projeto from './CompsProjeto/Projeto';
 
 function ProjectsHome() {
     return ( 
         <>
-        <section id='ProjectsHome' className='flex flex-row flex-wrap items-center justify-center sm:gap-[15px] gap-[10px] w-full p-[20px] '>
+        <section id='ProjectsHome' className='flex flex-row flex-wrap items-center justify-center sm:gap-[40px] gap-[20px] w-full p-[20px] '>
 
-            <CardProjectHome Title='Em Breve um Titulo' Description='Em Breve ...' TextButton='Site'/>
-            
-            <CardProjectHome Title='Em Breve um Titulo' Description='Em Breve ...' TextButton='Site'/>
+            <Projeto />
+
+            <Projeto />
+
+            <Projeto />
 
         </section>
         </>

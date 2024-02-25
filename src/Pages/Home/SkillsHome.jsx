@@ -1,22 +1,29 @@
 import React from 'react';
-import CardSkillHome from '../../Comps/CardSkillHome';
+
+import TituloSkill from './CompsSkill/TituloSkill';
+import ParagrafoSkill from './CompsSkill/ParagrafoSkill';
+import LineSkill from './CompsSkill/LineSkill';
 
 function SkillsHome() {
     return ( 
         <>
-        <section id='SkillsHome' className='flex flex-col flex-nowrap items-center justify-center sm:gap-[15px] gap-[10px] w-full h-auto p-[20px]'>
+        <section id='SkillsHome' className='w-full h-auto p-[20px] sm:p-[40px]'>
 
-            <p className='w-full sm:w-[80%] h-auto font-Sora font-[600] sm:text-[1rem] text-[.75rem] text-center dark:text-pl text-sd'>Conhecimentos em <span className='text-td'>Javascript</span>, <span className='text-td'>Node Js</span>, <span className='text-td'>React Js</span>, <span className='text-td'>Figma</span> & <span className='text-td'>Tailwind Css</span></p>
+            <TituloSkill Text='Desenvolvimento Web' Direction='left'/>
 
-            <div className='flex flex-row flex-wrap items-center justify-center sm:gap-[15px] gap-[10px] w-full h-auto'>
+            <ParagrafoSkill Text='Seu site com a melhor permormançe, layout e paletas com o tema do projeto, Totalmente flexivel.' Direction='left'/>
 
-                <CardSkillHome Text='Oferecemos desenvolvimento web para sites institucionais, blogs, Transforme suas ideias em realidade digital sem complicações.' Title='Desenvolvimento Web'/>
+            <LineSkill Direction='r'/>
 
-                <CardSkillHome Text='Criamos interfaces intuitivas e atraentes, tornamos seu site fácil e agradável, Invista em um design simples e impactante.' Title='Layout UX & UI'/>
+            <TituloSkill Text='Social Media' Direction='right'/>
 
-                <CardSkillHome Text='Cada elemento é cuidadosamente concebido, Abraçamos a simplicidade e a beleza do design, Seja um logotipo, layout, Nosso design destaca a sinceridade e a força da sua marca.' Title='Design Adaptativo'/>
+            <ParagrafoSkill Text='Suas plataformas digitais com o design perfeito, Post interativos e Perfil organizado.' Direction='right'/>
 
-            </div>
+            <LineSkill Direction='l'/>
+
+            <TituloSkill Text='UI & UX' Direction='left'/>
+
+            <ParagrafoSkill Text='Prototipos totalmentes adaptativos e com responsividade, UI & UX pensado no cliente.' Direction='left'/>
 
         </section>
         </>

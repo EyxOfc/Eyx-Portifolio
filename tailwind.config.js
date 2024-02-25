@@ -7,12 +7,10 @@ module.exports = {
     extend: {
       darkMode: 'class',
       colors: {
-        'pl': '#F8FAFC',
-        'sl': '#CBD5E1',
-        'tl': '#0EA5E9',
-        'pd': '#F8FAFC',
-        'sd': '#0F172A',
-        'td': '#0EA5E9',
+        'white': '#F8FAFC',
+        'gray': '#CBD5E1',
+        'sky': '#0EA5E9',
+        'slate': '#0F172A'
       }
     },
     fontFamily: {

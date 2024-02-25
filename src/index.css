@@ -9,7 +9,6 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
-  scroll-margin-top: 60px;
 }
 
 html, body , #root{
