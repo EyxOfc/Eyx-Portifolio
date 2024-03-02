@@ -1,9 +1,12 @@
 import React from 'react';
 
-function ParagrafoAbout({Text}) {
+import { ReactTyped } from "react-typed";
+
+function ParagrafoAbout({Text, StartDelay}) {
+
     return ( 
         <>
-        <p className='w-[90%] sm:w-[80%] font-Sora font-[600] text-center text-slate text-[.75rem] sm:text-[1.5rem]'>{Text}</p>
+        <ReactTyped strings={Text} loop={Infinity} backSpeed={25} typeSpeed={60} backDelay={5000} className='w-[90%] sm:w-[80%] font-Sora font-[600] text-center text-slate dark:text-white text-[.75rem] sm:text-[1.5rem]' startDelay={StartDelay} />
         </>
     );
 }
